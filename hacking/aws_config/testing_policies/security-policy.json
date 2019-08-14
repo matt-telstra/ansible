@@ -139,6 +139,22 @@
                 "iam:UpdateAccountPasswordPolicy"
             ],
             "Resource": "*"
+        },
+        {
+            "Sid": "AllowAccessToACM",
+            "Effect": "Allow",
+            "Action": [
+                "acm:ListCertificates",
+                "acm:ImportCertificate",
+                "acm:DescribeCertificate",
+                "acm:GetCertificate",
+                "acm:ListTagsForCertificate",
+                "acm:AddTagsToCertificate",
+                "acm:DeleteCertificate"
+            ],
+            "Resource": [
+                "*"
+            ]
         }
     ]
 }
