@@ -26,15 +26,18 @@ options:
     aliases:
      - arn
     version_added: '2.9'
+    type: str
   domain_name:
     description:
       - The domain name of an ACM certificate to limit the search to
     aliases:
       - name
+    type: str
   statuses:
     description:
       - Status to filter the certificate results
     choices: ['PENDING_VALIDATION', 'ISSUED', 'INACTIVE', 'EXPIRED', 'VALIDATION_TIMED_OUT', 'REVOKED', 'FAILED']
+    type: list
   tags:
     description:
       - Filter results to show only certificates with tags that match all the tags specified here.
