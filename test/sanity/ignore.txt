@@ -495,12 +495,6 @@ lib/ansible/modules/cloud/amazon/aws_application_scaling_policy.py validate-modu
 lib/ansible/modules/cloud/amazon/aws_application_scaling_policy.py validate-modules:E326
 lib/ansible/modules/cloud/amazon/aws_application_scaling_policy.py validate-modules:E337
 lib/ansible/modules/cloud/amazon/aws_application_scaling_policy.py validate-modules:E340
-lib/ansible/modules/cloud/amazon/aws_api_gateway.py validate-modules:undocumented-parameter
-lib/ansible/modules/cloud/amazon/aws_api_gateway.py validate-modules:parameter-type-not-in-doc
-lib/ansible/modules/cloud/amazon/aws_application_scaling_policy.py validate-modules:undocumented-parameter
-lib/ansible/modules/cloud/amazon/aws_application_scaling_policy.py validate-modules:doc-choices-do-not-match-spec
-lib/ansible/modules/cloud/amazon/aws_application_scaling_policy.py validate-modules:parameter-type-not-in-doc
-lib/ansible/modules/cloud/amazon/aws_application_scaling_policy.py validate-modules:missing-subption-docs
 lib/ansible/modules/cloud/amazon/aws_az_info.py future-import-boilerplate
 lib/ansible/modules/cloud/amazon/aws_az_info.py metaclass-boilerplate
 lib/ansible/modules/cloud/amazon/aws_az_info.py validate-modules:parameter-type-not-in-doc
